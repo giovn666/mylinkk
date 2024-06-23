@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links - Landooramlan</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #6b46c1; /* Warna latar belakang halaman (ungu) */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #1f1f1f; /* Warna latar belakang konten (hitam) */
+            padding: 60px; /* Padding diperbesar untuk ruang yang lebih besar di sekitar konten */
+            border-radius: 12px; /* Border-radius diperbesar untuk sudut yang lebih lembut */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Bayangan diperbesar untuk efek lembut */
+            text-align: center;
+            color: #fff; /* Warna teks */
+            max-width: 600px; /* Lebar maksimum konten untuk menjaga agar konten tetap terpusat */
+            position: relative; /* Untuk posisi absolut elemen dekoratif */
+        }
+
+        .profile-img {
+            width: 250px; /* Ukuran foto profil diperbesar */
+            height: 250px; /* Ukuran foto profil diperbesar */
+            border-radius: 50%;
+            margin-bottom: 30px;
+            object-fit: cover;
+        }
+
+        .decoration {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            color: #f1c40f; /* Warna dekorasi (kuning) */
+        }
+
+        .decoration:nth-child(2) {
+            top: 30%;
+            left: 80%;
+            font-size: 64px;
+        }
+
+        .decoration:nth-child(3) {
+            top: 70%;
+            left: 50%;
+            font-size: 36px;
+            color: #e74c3c; /* Warna dekorasi (merah) */
+        }
+
+        .decoration:nth-child(4) {
+            top: 90%;
+            left: 20%;
+            font-size: 56px;
+            color: #3498db; /* Warna dekorasi (biru) */
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 30px; /* Jarak antar tautan diperbesar */
+            margin-top: 30px; /* Jarak atas tautan diperbesar */
+        }
+
+        .link-item {
+            display: block;
+            text-decoration: none;
+            color: #000; /* Warna teks tautan (hitam) */
+            padding: 20px 40px; /* Padding tautan diperbesar */
+            border-radius: 50px; /* Border-radius tautan diperbesar */
+            transition: background-color 0.3s ease;
+            font-size: 28px; /* Ukuran font tautan diperbesar */
+            font-weight: bold;
+            background-color: #6cc644; /* Warna latar belakang untuk semua tautan (hijau) */
+        }
+
+        .link-item:hover {
+            background-color: #5aaf3f; /* Warna latar belakang saat dihover (hijau tua) */
+        }
+
+        .copyright {
+            margin-top: 40px; /* Jarak atas hak cipta diperbesar */
+            font-size: 16px; /* Ukuran font hak cipta diperbesar */
+            color: #ccc; /* Warna teks */
+        }
+
+        .name {
+            font-size: 32px; /* Ukuran font nama diperbesar */
+            font-weight: bold;
+            color: #fff; /* Warna teks */
+            text-transform: uppercase;
+            margin-bottom: 20px; /* Jarak bawah nama diperbesar */
+            position: relative; /* Untuk posisi absolut bintang */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="decoration">&#9733;</div> <!-- Simbol bintang -->
+        <div class="decoration">&#9733;</div> <!-- Simbol bintang -->
+        <div class="decoration">&#127770;</div> <!-- Simbol bulan -->
+        <div class="decoration">&#9733;</div> <!-- Simbol bintang -->
+        <img src="gatau.jpg" alt="Profile Picture" class="profile-img">
+                <div class="name">@landooramlan</div>
+        <div class="links">
+            <a href="https://github.com/giovn666" target="_blank" class="link-item">Github</a>
+            <a href="https://instagram.com/landooramlan" target="_blank" class="link-item">Instagram</a>
+            <a href="https://tiktok.com/@matthewcsz" target="_blank" class="link-item">TikTok</a>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Ronaldo Giovani.
+        </div>
+    </div>
+</body>
+</html>
